@@ -1,11 +1,11 @@
 # Favourite Movie Form
 
-This form was built using a the [streamlit]{https://streamlit.io/} python framework to create a web application that allows users to fill out what their favourite movie is and store it in a MS SQL Server database. 
+This form was built using a the [streamlit](https://streamlit.io/) python framework to create a web application that allows users to fill out what their favourite movie is and store it in a MS SQL Server database. 
 
 ## This does require a MS SQL Server database to work
 
-1. download MS SQL Server along SSMS from microsoft to set up a sql server. then run the finalProjectQuery.sql file using SSMS  to create the database.
-2. if not installed download the python interpreter from [python official]{https://www.python.org/}. I've used version 3.10.6
+1. download [MS SQL Server](https://www.microsoft.com/en-ca/sql-server/sql-server-downloads) along [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) from microsoft to set up a sql server. then run the finalProjectQuery.sql file using SSMS  to create the database.
+2. if not installed download the python interpreter from [python official](https://www.python.org/). I've used version 3.10.6
 3. create a virtual enviroment using `python -m venv venv` on windows or `python3 -m venv venv` on linux in the directory you want to use these files in any terminal
 4. activate the virtual enviroment by `.\venv\Scripts\activate` on windows or `source venv/bin/activate` on linux
 5. run `pip install -r ./requirements.txt` to downlaod all the packages to the virtual enviroment
